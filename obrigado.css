@@ -1,0 +1,119 @@
+/*Estilo Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+}
+
+body{
+    background-color:#0a192f;
+    height: 100vh;
+}   
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/*Estilo Cabeçalho*/
+header{
+    padding: 10px;
+    background-color: #0a192f;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding-right: 75px;
+}
+
+header a{
+    color: rgb(222, 221, 221);
+    text-decoration: none;
+    display: inline-block;
+}
+header a:hover{
+color: #64ffda;
+transform: scale(1.05);
+
+}
+
+header nav ul {
+    list-style-type: none;
+    
+}
+header nav.menu-desktop ul li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    margin-right: 20px; /* espaçamento entre os itens */
+}
+header span{
+    font-size: 14px;
+    color: #64ffda;
+}
+header img{
+    width: 78px;
+    height: 78px;
+    border-radius: 10px;
+}
+
+
+
+/*Estilo BODY*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.container img{
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    border: 3px solid whitesmoke;
+}
+.container h1{
+    margin-bottom: 20px;
+    color:  rgb(222, 221, 221);
+    font-size: 35px ;
+   font-weight:bolder;
+}
+.container h4{
+color: #64ffda;
+font-size: 20px;
+font-weight: 800;
+}
+
+.container button{
+    margin-top: 30px;
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #64ffda;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 3px 6px #64ffda;
+    transition: 0.5s;
+}
+.container button:hover{
+    transform: scale(1.05);
+}
+
+.container a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+}
