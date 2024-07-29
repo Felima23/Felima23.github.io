@@ -143,8 +143,8 @@ section .icones-inicio a:hover{
 .container img{
     margin-top: 50px;
     width: 350px;
-    height: 280px;
-    border-radius: 5px;
+    height: 380px;
+    border-radius: 50px;
     box-shadow: 0 4px 6px #64ffda;
     transition: transform 0.3s ease;
 }
